@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: white;
+            scroll-behavior: smooth;
+        }
+
+        nav{
+            background-color: black;
+        }
+
+        nav ul{
+            justify-content: center;
+            background-color: black;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        nav ul li{
+            background-color: black;
+            display: flex;
+            padding: 10px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            transition: color, font-size, 0.5s ease;
+        }
+
+        nav ul li a:hover{
+            color: red;
+            font-size: 23px;
+        }
+
+        div{
+            height: 500px;
+            width: 100%;
+            background-color: beige;
+        }
+
+        p{
+            background-color: beige;
+            font-size: larger;
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#signin">Sign in/ Sign up</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div id="home">
+            <p>Home</p>
+        </div>
+        <div id="about">
+            <p>About</p>
+        </div>
+        <div id="contact">
+            <p>Contact</p>
+        </div>
+        <div id="signin">
+            <p>Sign in</p>
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+.ab{
+    border: 1px;
+    border-color: brown;
+    color: black;
+    background-color: aquamarine;
+}
+
+
+.bc {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    
+}
+
+
+body{
+    background-color: grey;
+    background-image: url("hacker.jpg");
+    background-size: contain;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+button{
+    color: #000;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: aliceblue;
+    margin-top: 700px;
+    margin-left: 650px;
+    font-size: medium;
+}
+
+
+button:hover{
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: red;
+    font-size: larger;
+}
+
+
+.navbar{
+    display: flex;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    position: fixed;
+    margin: 0;
+    padding: 10px;
+    background-color:black;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    padding: 0;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: red;           
+} 
+
+
+#about{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    color: white;
+
+}
+
+
+#insideAbout{
+    margin-right: 50%;
+    display: flex;
+    font-weight: 400;
+    color: white;
+}
+
+
+
